@@ -123,6 +123,7 @@ dependencies {
 tasks.processResources {
     from('src/main/resources') {
         include '**/services/**'
+        include 'META-INF/neoforge.mods.toml'
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
