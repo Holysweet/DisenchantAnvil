@@ -30,7 +30,8 @@ public final class DAConfig {
                                 "minecraft:obsidian",
                                 "minecraft:crying_obsidian"
                         ),
-                        o -> o instanceof String
+                        () -> "minecraft:obsidian", // ✅ new element supplier (this is the non-deprecated overload)
+                        o -> o instanceof String    // element validator
                 );
 
         builder.pop();
