@@ -232,7 +232,7 @@ public final class AnvilProcessor {
             it.setPos(px, py, pz);
             it.setDeltaMovement(dx, lift, dz);
             it.setOnGround(false);
-            it.hasImpulse = true;
+            it.hurtMarked = true;
         }
     }
 }

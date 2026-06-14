@@ -4,7 +4,7 @@ license = "All Rights Reserved"
 
 [[mods]]
 modId="disenchantanvil"
-version="2.0.1"
+version="26.0.1"
 displayName="Disenchant Anvil"
 description='''  
 Allows you to transfer enchantments from items to books using the anvil.  
@@ -13,13 +13,13 @@ Allows you to transfer enchantments from items to books using the anvil.
 [[dependencies.disenchantanvil]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.21.1,)"
+versionRange="[26.1.2,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.disenchantanvil]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.1.0,)"
+versionRange = "[26.1.2.71,)"
 ordering = "NONE"
 side = "BOTH"
